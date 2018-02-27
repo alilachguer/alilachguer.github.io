@@ -1,0 +1,910 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/alachguer/ontologies/2018/1/untitled-ontology-4"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/alachguer/ontologies/2018/1/untitled-ontology-4">
+    <Prefix name="" IRI="http://www.semanticweb.org/alachguer/ontologies/2018/1/untitled-ontology-4"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Single"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSong"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#chanson"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#new_york_dolls"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MembreofBand"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#unknown_pleasures"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#WARWICK_BASS_ROCKBASS_CORVETTE_BASIC"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#barett_pink_floyd"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Album"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Harley_Benton_HBZ-2005FL"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Nirvana"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mapex_TBD5044"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#fender_telecaster"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#nwa"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#julian_casablancas"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lcd_soundsystem"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pink_floyd"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hip_hop"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#is_this_it"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#nbSongs"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#zeppllin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Person"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#robert_plant"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#kid_a"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#syd_barett"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Certification"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#36_chambers"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#roger_waters"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#david_gilmour"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#remain_in_light"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sonic_youth"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Diamond"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#The_cure"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#playsInstrument"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pearl_export"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Electronic"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#leftFrom"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasCertification"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rock"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#james_murphy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Roland_Juno-106"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#beach_boys"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#The_beatles"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#sings"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Progressive"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Yamaha_DX7"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pearl_jam"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#lou_reed"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#fender_stratocaster"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#playsSong"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#madeAlbum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Instruments"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bass"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Genre"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#radiohead"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Guitare"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#method_man"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Psychedelic"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasJoined"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#john_bonham"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#violon"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#joinedSince"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Groupe"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#became"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Indie_rock"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#nbSells"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Membre"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#microKORG"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#StarTone_star"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isSongIn"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ok_computer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#McCartney"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Platinium"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Folk"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#master_of_puppets"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#the_rolling_stones"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sergent_peppers"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#The_strokes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chanteur"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#velvet_underground"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Joy_division"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#the_wall"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#beastie_boys"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Talking_heads"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gold"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Metallica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Batterie"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#playsGenre"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#a_tribe_called_quest"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lennon"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isMemberOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#contains"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Stagg_BC300FL-NS_Fusion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Clavier"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Autre_instrument"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#velvet_and_nico"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Yamaha_SY77"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#wu_tang_clan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Musicien"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ringo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tama_rythme_mate"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Metal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tambourine"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasMember"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#jimmy_page"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#american_dream"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#Album"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#contains"/>
+            <Class IRI="#chanson"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Album"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCertification"/>
+            <Class IRI="#Certification"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Chanteur"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#sings"/>
+            <Class IRI="#chanson"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Diamond"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#nbSells"/>
+            <DatatypeRestriction>
+                <Datatype abbreviatedIRI="xsd:integer"/>
+                <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minInclusive">
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">10000000</Literal>
+                </FacetRestriction>
+            </DatatypeRestriction>
+        </DataSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Gold"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#nbSells"/>
+            <DatatypeRestriction>
+                <Datatype abbreviatedIRI="xsd:integer"/>
+                <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minInclusive">
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">500000</Literal>
+                </FacetRestriction>
+            </DatatypeRestriction>
+        </DataSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Groupe"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#playsGenre"/>
+                <Class IRI="#Genre"/>
+            </ObjectSomeValuesFrom>
+            <ObjectMinCardinality cardinality="1">
+                <ObjectProperty IRI="#playsGenre"/>
+                <Class IRI="#Genre"/>
+            </ObjectMinCardinality>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Groupe"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasMember"/>
+            <Class IRI="#Membre"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Groupe"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#madeAlbum"/>
+            <Class IRI="#Album"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Groupe"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#playsGenre"/>
+            <Class IRI="#Genre"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Groupe"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#playsSong"/>
+            <Class IRI="#chanson"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Membre"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#became"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasJoined"/>
+                <Class IRI="#Groupe"/>
+            </ObjectSomeValuesFrom>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#MembreofBand"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasJoined"/>
+            <Class IRI="#Groupe"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Musicien"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#playsInstrument"/>
+            <Class IRI="#Instruments"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Platinium"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#nbSells"/>
+            <DatatypeRestriction>
+                <Datatype abbreviatedIRI="xsd:integer"/>
+                <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minInclusive">
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1000000</Literal>
+                </FacetRestriction>
+            </DatatypeRestriction>
+        </DataSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Single"/>
+        <ObjectMaxCardinality cardinality="1">
+            <ObjectProperty IRI="#contains"/>
+            <Class IRI="#chanson"/>
+        </ObjectMaxCardinality>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#Autre_instrument"/>
+        <Class IRI="#Instruments"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bass"/>
+        <Class IRI="#Instruments"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Batterie"/>
+        <Class IRI="#Instruments"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chanteur"/>
+        <Class IRI="#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Clavier"/>
+        <Class IRI="#Instruments"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Diamond"/>
+        <Class IRI="#Certification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gold"/>
+        <Class IRI="#Certification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Guitare"/>
+        <Class IRI="#Instruments"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Musicien"/>
+        <Class IRI="#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Platinium"/>
+        <Class IRI="#Certification"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Genre"/>
+        <NamedIndividual IRI="#Electronic"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Genre"/>
+        <NamedIndividual IRI="#Folk"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bass"/>
+        <NamedIndividual IRI="#Harley_Benton_HBZ-2005FL"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Genre"/>
+        <NamedIndividual IRI="#Hip_hop"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Genre"/>
+        <NamedIndividual IRI="#Indie_rock"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Groupe"/>
+        <NamedIndividual IRI="#Joy_division"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Groupe"/>
+        <NamedIndividual IRI="#Lcd_soundsystem"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Person"/>
+        <NamedIndividual IRI="#Lennon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Batterie"/>
+        <NamedIndividual IRI="#Mapex_TBD5044"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Person"/>
+        <NamedIndividual IRI="#McCartney"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Genre"/>
+        <NamedIndividual IRI="#Metal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Groupe"/>
+        <NamedIndividual IRI="#Metallica"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Groupe"/>
+        <NamedIndividual IRI="#Nirvana"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Batterie"/>
+        <NamedIndividual IRI="#Pearl_export"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Groupe"/>
+        <NamedIndividual IRI="#Pearl_jam"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Groupe"/>
+        <NamedIndividual IRI="#Pink_floyd"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Genre"/>
+        <NamedIndividual IRI="#Progressive"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Genre"/>
+        <NamedIndividual IRI="#Psychedelic"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Genre"/>
+        <NamedIndividual IRI="#Rock"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Clavier"/>
+        <NamedIndividual IRI="#Roland_Juno-106"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Groupe"/>
+        <NamedIndividual IRI="#Sonic_youth"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bass"/>
+        <NamedIndividual IRI="#Stagg_BC300FL-NS_Fusion"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Batterie"/>
+        <NamedIndividual IRI="#StarTone_star"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Groupe"/>
+        <NamedIndividual IRI="#Talking_heads"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Batterie"/>
+        <NamedIndividual IRI="#Tama_rythme_mate"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Groupe"/>
+        <NamedIndividual IRI="#The_beatles"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Groupe"/>
+        <NamedIndividual IRI="#The_cure"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Groupe"/>
+        <NamedIndividual IRI="#The_strokes"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bass"/>
+        <NamedIndividual IRI="#WARWICK_BASS_ROCKBASS_CORVETTE_BASIC"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Clavier"/>
+        <NamedIndividual IRI="#Yamaha_DX7"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Clavier"/>
+        <NamedIndividual IRI="#Yamaha_SY77"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Groupe"/>
+        <NamedIndividual IRI="#a_tribe_called_quest"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Album"/>
+        <NamedIndividual IRI="#american_dream"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MembreofBand"/>
+        <NamedIndividual IRI="#barett_pink_floyd"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Groupe"/>
+        <NamedIndividual IRI="#beach_boys"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Groupe"/>
+        <NamedIndividual IRI="#beastie_boys"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Person"/>
+        <NamedIndividual IRI="#david_gilmour"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Guitare"/>
+        <NamedIndividual IRI="#fender_stratocaster"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Guitare"/>
+        <NamedIndividual IRI="#fender_telecaster"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Album"/>
+        <NamedIndividual IRI="#is_this_it"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Person"/>
+        <NamedIndividual IRI="#james_murphy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Person"/>
+        <NamedIndividual IRI="#jimmy_page"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Person"/>
+        <NamedIndividual IRI="#john_bonham"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Person"/>
+        <NamedIndividual IRI="#julian_casablancas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Album"/>
+        <NamedIndividual IRI="#kid_a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Person"/>
+        <NamedIndividual IRI="#lou_reed"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Album"/>
+        <NamedIndividual IRI="#master_of_puppets"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Person"/>
+        <NamedIndividual IRI="#method_man"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Clavier"/>
+        <NamedIndividual IRI="#microKORG"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Groupe"/>
+        <NamedIndividual IRI="#new_york_dolls"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Groupe"/>
+        <NamedIndividual IRI="#nwa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Album"/>
+        <NamedIndividual IRI="#ok_computer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Groupe"/>
+        <NamedIndividual IRI="#radiohead"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Album"/>
+        <NamedIndividual IRI="#remain_in_light"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Person"/>
+        <NamedIndividual IRI="#ringo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Person"/>
+        <NamedIndividual IRI="#robert_plant"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Person"/>
+        <NamedIndividual IRI="#roger_waters"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Album"/>
+        <NamedIndividual IRI="#sergent_peppers"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Person"/>
+        <NamedIndividual IRI="#syd_barett"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Autre_instrument"/>
+        <NamedIndividual IRI="#tambourine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Groupe"/>
+        <NamedIndividual IRI="#the_rolling_stones"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#chanson"/>
+        <NamedIndividual IRI="#the_wall"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Album"/>
+        <NamedIndividual IRI="#unknown_pleasures"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Album"/>
+        <NamedIndividual IRI="#velvet_and_nico"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Groupe"/>
+        <NamedIndividual IRI="#velvet_underground"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Autre_instrument"/>
+        <NamedIndividual IRI="#violon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Groupe"/>
+        <NamedIndividual IRI="#wu_tang_clan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Groupe"/>
+        <NamedIndividual IRI="#zeppllin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Album"/>
+        <NamedIndividual IRI="#36_chambers"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#madeAlbum"/>
+        <NamedIndividual IRI="#Joy_division"/>
+        <NamedIndividual IRI="#unknown_pleasures"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#madeAlbum"/>
+        <NamedIndividual IRI="#Lcd_soundsystem"/>
+        <NamedIndividual IRI="#american_dream"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#madeAlbum"/>
+        <NamedIndividual IRI="#Metallica"/>
+        <NamedIndividual IRI="#master_of_puppets"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#madeAlbum"/>
+        <NamedIndividual IRI="#Talking_heads"/>
+        <NamedIndividual IRI="#remain_in_light"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasJoined"/>
+        <NamedIndividual IRI="#barett_pink_floyd"/>
+        <NamedIndividual IRI="#Pink_floyd"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#playsInstrument"/>
+        <NamedIndividual IRI="#david_gilmour"/>
+        <NamedIndividual IRI="#fender_stratocaster"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#sings"/>
+        <NamedIndividual IRI="#david_gilmour"/>
+        <NamedIndividual IRI="#the_wall"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#madeAlbum"/>
+        <NamedIndividual IRI="#radiohead"/>
+        <NamedIndividual IRI="#kid_a"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#madeAlbum"/>
+        <NamedIndividual IRI="#radiohead"/>
+        <NamedIndividual IRI="#ok_computer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#became"/>
+        <NamedIndividual IRI="#syd_barett"/>
+        <NamedIndividual IRI="#barett_pink_floyd"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#madeAlbum"/>
+        <NamedIndividual IRI="#velvet_underground"/>
+        <NamedIndividual IRI="#velvet_and_nico"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#madeAlbum"/>
+        <NamedIndividual IRI="#wu_tang_clan"/>
+        <NamedIndividual IRI="#36_chambers"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#joinedSince"/>
+        <NamedIndividual IRI="#barett_pink_floyd"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1965</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#leftFrom"/>
+        <NamedIndividual IRI="#barett_pink_floyd"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1968</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nbSells"/>
+        <NamedIndividual IRI="#36_chambers"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1000000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nbSongs"/>
+        <NamedIndividual IRI="#36_chambers"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">13</Literal>
+    </DataPropertyAssertion>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasMember"/>
+        <ObjectProperty IRI="#isMemberOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasSong"/>
+        <ObjectProperty IRI="#isSongIn"/>
+    </InverseObjectProperties>
+    <SubObjectPropertyOf>
+        <ObjectPropertyChain>
+            <ObjectProperty IRI="#became"/>
+            <ObjectProperty IRI="#hasJoined"/>
+        </ObjectPropertyChain>
+        <ObjectProperty IRI="#isMemberOf"/>
+    </SubObjectPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#joinedSince"/>
+        <Class IRI="#MembreofBand"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#leftFrom"/>
+        <Class IRI="#MembreofBand"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nbSells"/>
+        <Class IRI="#Album"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nbSongs"/>
+        <Class IRI="#Album"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#joinedSince"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#leftFrom"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#nbSells"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#nbSongs"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.1.20160306-0033) https://github.com/owlcs/owlapi -->
+
